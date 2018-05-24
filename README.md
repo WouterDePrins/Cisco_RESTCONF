@@ -4,11 +4,13 @@ Cisco Catalyst 9000 - RESTCONF
 This simple script allows you to communicate with a Cisco Catalyst switch through RESTCONF and Python.
 RESTCONF is a new way to configure and automate network devices and supports XML and JSON.
 
-For now, this script only communicates with one switch and does not really involve automation. It's just a way to show how you can do HTTP GET/PUT/DELETE commands towards the Cat9K switch.
+This basic script is created to show how to configure a switch without touching the CLI.
+For now,  you can show/change the hostname and show/change/add VLAN's.
 
 Requirements:
-A Cisco Catalyst switch that with an IOS-XE release that supports RESTCONF
-Enable 'ip http server' and 'restconf' on the switch.
+A Cisco Catalyst switch that with an IOS-XE (>= 16.8.1) release
 
+Python version >= 3
+Requests (pip3 install requests)
 
-
+Enable 'ip http server' and 'restconf' on the switch and you're ready to go.
