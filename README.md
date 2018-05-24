@@ -5,7 +5,7 @@ This simple script allows you to communicate with a Cisco Catalyst switch throug
 RESTCONF is a new way to configure and automate network devices and supports XML and JSON.
 
 This basic script is created to show how to configure a switch without touching the CLI.
-For now,  you can show/change the hostname and show/change/add VLAN's.
+For now,  you can show/change the hostname and show/change/add VLAN's through a Python shell gui.
 
 Requirements:
 A Cisco Catalyst switch that with an IOS-XE (>= 16.8.1) release
